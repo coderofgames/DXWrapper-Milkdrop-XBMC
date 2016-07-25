@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{54380D63-88FC-4FA0-8D5F-A9218FB48960}</ProjectGuid>
+    <RootNamespace>DIS_Graphics</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(DXSDK_PATH)/include;$(DXSDK_DIR)/include; ../../../</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Color.h" />
+    <ClInclude Include="D3D_Conversion.h" />
+    <ClInclude Include="D3D_CreationInterface.h" />
+    <ClInclude Include="D3D_Interface.h" />
+    <ClInclude Include="DISX_Shader.h" />
+    <ClInclude Include="DISX_Texture.h" />
+    <ClInclude Include="DIS_Adapter.h" />
+    <ClInclude Include="DIS_BaseSurface.h" />
+    <ClInclude Include="DIS_CreationInterface.h" />
+    <ClInclude Include="DIS_D3DSurface.h" />
+    <ClInclude Include="DIS_Device.h" />
+    <ClInclude Include="DIS_Effect.h" />
+    <ClInclude Include="DIS_Math.h" />
+    <ClInclude Include="DIS_Mesh.h" />
+    <ClInclude Include="DIS_RenderStates.h" />
+    <ClInclude Include="DIS_Resource.h" />
+    <ClInclude Include="DIS_ResourceTypes.h" />
+    <ClInclude Include="DIS_Surface.h" />
+    <ClInclude Include="DIS_TextureFormatStructs.h" />
+    <ClInclude Include="IMG_FreeImageInterface.h" />
+    <ClInclude Include="IMG_ImageSurf.h" />
+    <ClInclude Include="IMG_Interface.h" />
+    <ClInclude Include="IMG_LoadFromFile.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D3D_Conversion.cpp" />
+    <ClCompile Include="D3D_CreationInterface.cpp" />
+    <ClCompile Include="D3D_Interface.cpp" />
+    <ClCompile Include="DISX_Texture.cpp" />
+    <ClCompile Include="DIS_CreationInterface.cpp" />
+    <ClCompile Include="DIS_D3DSurface.cpp" />
+    <ClCompile Include="DIS_Device.cpp" />
+    <ClCompile Include="DIS_Effect.cpp" />
+    <ClCompile Include="DIS_Math.cpp" />
+    <ClCompile Include="DIS_ResourceTypes.cpp" />
+    <ClCompile Include="DIS_Surface.cpp" />
+    <ClCompile Include="IMG_FreeImageInterface.cpp" />
+    <ClCompile Include="IMG_LoadIFromFile.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DIS_Math.inl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

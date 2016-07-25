@@ -1,0 +1,91 @@
+﻿Build started 26/02/2015 09:05:18.
+     1>Project "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Samples\C++\Direct3D\Tutorials\DIS\DIS_Graphics\DIS_Graphics\DIS_Graphics.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I/include /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\/include" /I../../../ /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt D3D_Conversion.cpp D3D_CreationInterface.cpp D3D_Interface.cpp DISX_Texture.cpp DIS_CreationInterface.cpp DIS_D3DSurface.cpp DIS_Device.cpp DIS_Effect.cpp DIS_Math.cpp DIS_ResourceTypes.cpp DIS_Surface.cpp IMG_FreeImageInterface.cpp IMG_LoadIFromFile.cpp
+         IMG_LoadIFromFile.cpp
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\img_imagesurf.h(206): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\img_imagesurf.h(273): warning C4018: '<' : signed/unsigned mismatch
+         IMG_FreeImageInterface.cpp
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\img_imagesurf.h(206): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\img_imagesurf.h(273): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\img_freeimageinterface.cpp(298): warning C4244: 'initializing' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\img_freeimageinterface.cpp(299): warning C4244: 'initializing' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\img_freeimageinterface.cpp(369): warning C4018: '<' : signed/unsigned mismatch
+         DIS_Surface.cpp
+         DIS_ResourceTypes.cpp
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\dis_resourcetypes.cpp(41): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\dis_resourcetypes.cpp(62): warning C4018: '>' : signed/unsigned mismatch
+         DIS_Math.cpp
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\dis_math.h(122): warning C4099: 'DISX_VECTOR3' : type name first seen using 'class' now seen using 'struct'
+                 c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\dis_math.h(94) : see declaration of 'DISX_VECTOR3'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\dis_math.inl(283): warning C4099: 'DISX_VECTOR3' : type name first seen using 'class' now seen using 'struct'
+                 c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\dis_math.h(94) : see declaration of 'DISX_VECTOR3'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\dis_math.cpp(215): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\dis_math.cpp(216): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\dis_math.cpp(217): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\dis_math.cpp(501): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\dis_math.cpp(502): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\dis_math.cpp(503): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\dis_math.cpp(504): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\dis_math.cpp(1947): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\dis_math.cpp(2040): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\dis_math.cpp(2042): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+         DIS_Effect.cpp
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\dis_math.h(122): warning C4099: 'DISX_VECTOR3' : type name first seen using 'class' now seen using 'struct'
+                 c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\dis_math.h(94) : see declaration of 'DISX_VECTOR3'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\dis_math.inl(283): warning C4099: 'DISX_VECTOR3' : type name first seen using 'class' now seen using 'struct'
+                 c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\dis_math.h(94) : see declaration of 'DISX_VECTOR3'
+         DIS_Device.cpp
+         DIS_D3DSurface.cpp
+         DIS_CreationInterface.cpp
+         DISX_Texture.cpp
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\disx_texture.h(8): warning C4005: '_In_' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\sal.h(314) : see previous definition of '_In_'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\disx_texture.h(9): warning C4005: '_Inout_' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\sal.h(384) : see previous definition of '_Inout_'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\disx_texture.h(10): warning C4005: '_Out_' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\sal.h(351) : see previous definition of '_Out_'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\img_imagesurf.h(206): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\img_imagesurf.h(273): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\disx_texture.cpp(206): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\disx_texture.cpp(208): warning C4018: '<' : signed/unsigned mismatch
+         D3D_Interface.cpp
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\dis_math.h(122): warning C4099: 'DISX_VECTOR3' : type name first seen using 'class' now seen using 'struct'
+                 c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\dis_math.h(94) : see declaration of 'DISX_VECTOR3'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\dis_math.inl(283): warning C4099: 'DISX_VECTOR3' : type name first seen using 'class' now seen using 'struct'
+                 c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\dis_math.h(94) : see declaration of 'DISX_VECTOR3'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\d3d_interface.cpp(1441): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\d3d_interface.cpp(1631): warning C4101: 'hr' : unreferenced local variable
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\d3d_interface.cpp(2322): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\d3d_interface.cpp(6274): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\d3d_interface.cpp(7165): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\d3d_interface.cpp(7658): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\d3d_interface.cpp(7666): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\d3d_interface.cpp(9324): warning C4800: 'DIS_RESULT' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\d3d_interface.cpp(9475): warning C4244: '=' : conversion from 'const float' to 'LONG', possible loss of data
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\d3d_interface.cpp(9476): warning C4244: '=' : conversion from 'const float' to 'LONG', possible loss of data
+         D3D_CreationInterface.cpp
+         D3D_Conversion.cpp
+         Generating Code...
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\samples\c++\direct3d\tutorials\dis\dis_graphics\dis_graphics\dis_surface.cpp(237): warning C4715: 'CubeImageSurface::Create' : not all control paths return a value
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Samples\C++\Direct3D\Tutorials\DIS\DIS_Graphics\Debug\DIS_Graphics.lib" /NOLOGO Debug\D3D_Conversion.obj
+         Debug\D3D_CreationInterface.obj
+         Debug\D3D_Interface.obj
+         Debug\DISX_Texture.obj
+         Debug\DIS_CreationInterface.obj
+         Debug\DIS_D3DSurface.obj
+         Debug\DIS_Device.obj
+         Debug\DIS_Effect.obj
+         Debug\DIS_Math.obj
+         Debug\DIS_ResourceTypes.obj
+         Debug\DIS_Surface.obj
+         Debug\IMG_FreeImageInterface.obj
+         Debug\IMG_LoadIFromFile.obj
+     1>DIS_Effect.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         DIS_Graphics.vcxproj -> C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Samples\C++\Direct3D\Tutorials\DIS\DIS_Graphics\Debug\DIS_Graphics.lib
+     1>Done Building Project "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Samples\C++\Direct3D\Tutorials\DIS\DIS_Graphics\DIS_Graphics\DIS_Graphics.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.24
